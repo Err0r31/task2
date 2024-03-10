@@ -1,0 +1,33 @@
+.text-block-container {
+    display: flex;
+    max-width: 255px;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.text-block-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text-block-top img {
+    max-width: 40px;
+    max-height: 30px;
+    margin-right: 20px;
+}
+
+.text-block-top h4 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.text-block-container p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #616161;
+}

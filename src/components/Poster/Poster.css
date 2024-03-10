@@ -1,0 +1,53 @@
+.poster {
+    position: relative;
+    max-width: 580px;
+    max-height: 650px;
+}
+
+.poster img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.poster-text-container {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(209, 169, 84, 0.9);
+    height: 166px;
+    max-width: 580px;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster-border {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 126px;
+    text-align: center;
+    justify-content: center;
+    max-width: 550px;
+    flex: 1;
+}
+
+.poster-text {
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.poster-text h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.poster-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+}
